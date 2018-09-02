@@ -1,17 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <AppHeader />
+    <Intro />
+    <AppFooter />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import AppHeader from './Header/Header.vue';
+import Intro from './Intro/Intro.vue';
+import AppFooter from './Footer/Footer.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld,
+    AppHeader,
+    Intro,
+    AppFooter,
   },
 };
 </script>
@@ -25,4 +30,15 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
+.Container {
+  margin: 0 auto;
+  max-width: 1180px;
+  padding: 0 15px;
+}
+
+.ContainerBox {
+  max-width: 800px;
+}
+
 </style>
