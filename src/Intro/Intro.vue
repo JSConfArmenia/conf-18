@@ -3,7 +3,7 @@
     <div class="Container">
       <h1 class="Title">JavaScript Conference <br> Armenia</h1>
       <h3 class="Subtitle">November 3, 2018</h3>
-      <a href="" class="Button">
+      <a href="" class="Button -default">
         Request an Invite
       </a>
     </div>
@@ -58,8 +58,8 @@ export default {
   height: 100%;
   background-image: url('./IntroBgMain.png');
   background-repeat: no-repeat;
-  background-size: 50vh;
-  background-position-y: center;
+  background-size: 60vh;
+  background-position-y: 65%;
   background-position-x: center;
   z-index: -1;
 }

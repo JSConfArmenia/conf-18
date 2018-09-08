@@ -74,6 +74,11 @@ export default {
     margin: 0 .1em;
     text-decoration: none;
     font-weight: 600;
+    transition: all .2s ease;
+
+    &:hover {
+      background-color: #b9b9b945;
+    }
   }
 }
 </style>
