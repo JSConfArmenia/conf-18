@@ -31,14 +31,16 @@ export default {
 
 <style scoped lang="scss">
 .Header {
-  min-height: 100px;
+  // min-height: 100px;
   display: flex;
   align-items: center;
   padding: .5em 0;
-  position: absolute;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
+  // background: #fff;
+  z-index: 100;
 
   &.-fixed {
     position: fixed;
@@ -90,6 +92,7 @@ export default {
       height: 100%;
     }
 
+    &.active,
     &:hover {
       &:after {
         top: 0;

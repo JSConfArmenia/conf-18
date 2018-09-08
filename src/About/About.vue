@@ -1,5 +1,5 @@
 <template>
-  <div class="About">
+  <section class="About" id="About">
     <div class="Container">
       <div class="row">
         <div class="col col-md-3 offset-md-1">
@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

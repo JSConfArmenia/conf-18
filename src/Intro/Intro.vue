@@ -1,5 +1,5 @@
 <template>
-  <div class="Intro">
+  <section class="Intro" id="Intro">
     <div class="Container">
       <h1 class="Title">JavaScript Conference <br> Armenia</h1>
       <h3 class="Subtitle">November 3, 2018</h3>
@@ -11,7 +11,7 @@
     <div class="IntroBgMain"></div>
     <div class="IntroBgLeft"></div>
     <div class="IntroBgRight"></div>
-  </div>
+  </section>
 </template>
 
 <script>
