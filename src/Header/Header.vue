@@ -75,9 +75,25 @@ export default {
     text-decoration: none;
     font-weight: 600;
     transition: all .2s ease;
+    position: relative;
+    overflow: hidden;
+
+    &:after {
+      content: " ";
+      display: block;
+      background-color: #b9b9b945;
+      position: absolute;
+      transition: all .25s ease;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
 
     &:hover {
-      background-color: #b9b9b945;
+      &:after {
+        top: 0;
+      }
     }
   }
 }
