@@ -2,6 +2,7 @@
   <div id="app">
     <AppHeader />
     <Intro />
+    <About />
     <AppFooter />
   </div>
 </template>
@@ -9,6 +10,7 @@
 <script>
 import AppHeader from './Header/Header.vue';
 import Intro from './Intro/Intro.vue';
+import About from './About/About.vue';
 import AppFooter from './Footer/Footer.vue';
 
 export default {
@@ -16,6 +18,7 @@ export default {
   components: {
     AppHeader,
     Intro,
+    About,
     AppFooter,
   },
 };
