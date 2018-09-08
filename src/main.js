@@ -1,3 +1,7 @@
+// Styles
+import 'bootstrap/dist/css/bootstrap-reboot.css';
+import 'bootstrap/dist/css/bootstrap-grid.css';
+
 import Vue from 'vue';
 import App from './App.vue';
 
