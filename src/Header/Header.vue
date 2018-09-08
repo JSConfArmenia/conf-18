@@ -1,5 +1,9 @@
 <template>
-  <div class="Header">
+  <div
+    class="Header"
+    :class="{
+      '-sticked': scrollPos > 20,
+    }">
     <div class="Container HeaderContainer">
       <div class="LogoContainer">
         <Logo />
@@ -20,32 +24,57 @@
 </template>
 
 <script>
+import _throttle from 'lodash/throttle';
 import Logo from '../_common/Logo/Logo.vue';
 
 export default {
   components: {
     Logo,
   },
+  data() {
+    return {
+      scrollPos: window.scrollY,
+    };
+  },
+  methods: {
+    handleScroll() {
+      // Any code to be executed when the window is scrolled
+      // console.log(event);
+
+      this.scrollPos = window.scrollY;
+    },
+  },
+  created() {
+    window.addEventListener('scroll', _throttle(this.handleScroll, 100));
+  },
+  destroyed() {
+    window.removeEventListener('scroll', this.handleScroll);
+  },
 };
 </script>
 
 <style scoped lang="scss">
 .Header {
-  // min-height: 100px;
+  min-height: 100px;
   display: flex;
   align-items: center;
   padding: .5em 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   top: 0;
   left: 0;
   // background: #fff;
   z-index: 100;
+  background-color: transparent;
+  // transition: all .3s ease;
 
-  &.-fixed {
+  &.-sticked {
     position: fixed;
     min-height: auto;
+    background: #fff;
+    box-shadow: 0px 8px 30px 8.16px rgba(162, 162, 162, 0.3);
   }
+
 }
 
 .HeaderContainer {
