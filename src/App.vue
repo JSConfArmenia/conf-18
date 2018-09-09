@@ -3,6 +3,7 @@
     <AppHeader />
     <Intro />
     <About />
+    <Quiz />
     <AppFooter />
   </div>
 </template>
@@ -11,6 +12,7 @@
 import AppHeader from './Header/Header.vue';
 import Intro from './Intro/Intro.vue';
 import About from './About/About.vue';
+import Quiz from './Quiz/Quiz.vue';
 import AppFooter from './Footer/Footer.vue';
 
 export default {
@@ -19,6 +21,7 @@ export default {
     AppHeader,
     Intro,
     About,
+    Quiz,
     AppFooter,
   },
 };
