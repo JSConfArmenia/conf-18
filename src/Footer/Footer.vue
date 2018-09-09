@@ -1,5 +1,7 @@
 <template>
   <div class="Footer">
+    <Quiz />
+
     <div class="LogoContainer">
       <Logo />
     </div>
@@ -23,10 +25,12 @@
 
 <script>
 import Logo from '../_common/Logo/Logo.vue';
+import Quiz from '../Quiz/Quiz.vue';
 
 export default {
   components: {
     Logo,
+    Quiz,
   },
 };
 </script>
@@ -35,11 +39,11 @@ export default {
 .Footer {
   min-height: 70vh;
   display: flex;
-  padding: 100px 0;
   align-items: center;
   justify-content: flex-end;
   flex-direction: column;
   position: relative;
+  margin-top: 15vw;
 }
 
 .FooterBgLeft {
