@@ -14,13 +14,13 @@
         <h3 class="Question">Who are the speakers?</h3>
         <p class="Answer">
           To learn more about our speakers, please,
-          <a href="#Speakers" v-smooth-scroll="navConfig">click here</a>.
+          <a href="#Speakers">click here</a>.
         </p>
 
         <h3 class="Question">What are the talk topics?</h3>
         <p class="Answer">
           To see the talk sessions timetable and topics, please
-          <a href="#Schedule" v-smooth-scroll="navConfig">click here</a>.
+          <a href="#Schedule">click here</a>.
         </p>
 
         <h3 class="Question">What is the conference language?</h3>
@@ -66,7 +66,7 @@
         <h3 class="Question">Who are behind the JS Conference Armenia? </h3>
         <p class="Answer">
           To see the JS Conference Armenia team, please,
-          <a href="#Team" v-smooth-scroll="navConfig">click here</a>.
+          <a href="#Team">click here</a>.
         </p>
 
         <h3 class="Question">How can I help the team?</h3>
@@ -79,7 +79,7 @@
         <h3 class="Question">Who supports JS Conference Armenia?</h3>
         <p class="Answer">
           To learn about our sponsors and partners, please,
-          <a href="#Sponsors" v-smooth-scroll="navConfig">click here</a>.
+          <a href="#Sponsors">click here</a>.
         </p>
 
         <h3 class="Question">Will I get a certificate of participation?</h3>
