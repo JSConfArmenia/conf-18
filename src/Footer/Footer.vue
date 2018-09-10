@@ -34,7 +34,7 @@ export default {
 
 <style scoped lang="scss">
 .Footer {
-  min-height: 70vh;
+  min-height: 600px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -94,4 +94,5 @@ export default {
 .Credits {
   margin: 20px;
 }
+
 </style>

@@ -156,6 +156,7 @@
     margin-top: 50px;
     width: 100%;
     margin-bottom: -20vh;
+    box-shadow: none;
   }
 
   .VectorRight, .VectorLeft {
