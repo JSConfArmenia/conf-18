@@ -58,8 +58,9 @@
 
         <h3 class="Question">When is the deadline for registration?</h3>
         <p class="Answer">
-          There is no deadline but the sooner you register the more interesting it will be for you as a
-          participant as you will have the chance to take part in the preconference activities.
+          There is no deadline but the sooner you register the more
+          interesting it will be for you as a participant as you will
+          have the chance to take part in the preconference activities.
         </p>
 
         <h3 class="Question">Who are behind the JS Conference Armenia? </h3>
