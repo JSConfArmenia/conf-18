@@ -107,7 +107,7 @@ export default {
   align-items: center;
   justify-content: flex-end;
   flex-direction: column;
-  padding: 60px 20PX;
+  margin: 120px 20px;
 }
 
 a {
@@ -136,10 +136,6 @@ a {
 }
 
 @media (max-width: 768px) {
-
-  .Faq {
-    padding: 30px 0;
-  }
 
   .Answers {
     width: 100%;
