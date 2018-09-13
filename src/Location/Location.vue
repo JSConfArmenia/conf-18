@@ -27,7 +27,7 @@ export default {
 }
 
 .smart-object {
-  background-image: url(/img/smartObject.425fe2f0.png);
+  background-image: url('./smartObject.png');
   width: 130px;
   height: 200px;
   background-repeat: no-repeat;
