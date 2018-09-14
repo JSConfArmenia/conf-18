@@ -2,11 +2,12 @@
   <div
     class="Header"
     :class="{
-      '-sticked': scrollPos > 20,
+      '-sticked': isSticked,
     }">
     <div class="Container HeaderContainer">
       <div class="LogoContainer">
-        <Logo />
+        <Logo
+          :variation="isSticked ? 'compact' : 'full'" />
       </div>
       <nav class="Navigation">
         <a class="Item" href="#About">About</a>
@@ -16,8 +17,8 @@
         <a class="Item" href="#Team">Team</a>
         <a class="Item" href="#Location">Location</a>
         <a class="Item" href="#Faq">Faq</a>
-        <a class="Item" href="#Quizz">Quizz</a>
-        <a class="Item RequestInvite" href="" target="_blank" >Request an Invite</a>
+        <a class="Item" href="#Quizz">Quiz</a>
+        <!-- <a class="Item RequestInvite" href="" target="_blank" >Request an Invite</a> -->
       </nav>
     </div>
   </div>
@@ -43,6 +44,11 @@ export default {
 
       this.scrollPos = window.scrollY;
     },
+  },
+  computed: {
+    isSticked() {
+      return this.scrollPos > 23;
+    }
   },
   created() {
     window.addEventListener('scroll', _throttle(this.handleScroll, 100));
@@ -87,7 +93,7 @@ export default {
 
 .LogoContainer {
   position: absolute;
-  top: 5px;
+  top: 0;
   left: 15px;
 }
 

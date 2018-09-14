@@ -41,7 +41,7 @@ export default {
     height: 25px;
     border-radius: 50%;
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1.3);
     animation: floatshadow 6s ease-in-out infinite;
     background-color: #d7d7d7a9;
   }
@@ -60,15 +60,15 @@ export default {
 }
 @keyframes floatshadow {
   0% {
-    transform: scale(1);
+    transform: scale(1.3);
     opacity: 1;
   }
   50% {
-    transform: scale(1.2);
+    transform: scale(1);
     opacity: .5;
   }
   100% {
-    transform: scale(1);
+    transform: scale(1.3);
     opacity: 1;
   }
 }

@@ -8,6 +8,17 @@
       </a>
     </div>
 
+    <div class="IntroSponsor">
+      <div>
+        <a href="https://www.simplytechnologies.net/" target="_blank">
+          <img src="/sponsors/simply.svg" width="320" />
+        </a>
+      </div>
+      <div class="Description">
+        Main sponsor
+      </div>
+    </div>
+
     <div class="IntroBgMain"></div>
     <div class="IntroBgLeft"></div>
     <div class="IntroBgRight"></div>
@@ -24,7 +35,7 @@ export default {
 .Intro {
   min-height: 100vh;
   display: flex;
-  padding: 100px 0;
+  padding: 150px 0;
   align-items: center;
   justify-content: flex-start;
 }
@@ -36,6 +47,15 @@ export default {
 
 .Subtitle {
   font-size: 36px;
+}
+
+.IntroSponsor {
+  position: absolute;
+  right: 5%;
+  bottom: 30px;
+  display: block;
+  font-size: .8em;
+  text-align: center;
 }
 
 .IntroBgLeft {
