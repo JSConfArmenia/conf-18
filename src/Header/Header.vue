@@ -48,7 +48,7 @@ export default {
   computed: {
     isSticked() {
       return this.scrollPos > 23;
-    }
+    },
   },
   created() {
     window.addEventListener('scroll', _throttle(this.handleScroll, 100));
@@ -114,6 +114,7 @@ export default {
     transition: all .2s ease;
     position: relative;
     overflow: hidden;
+    font-weight: 600;
 
     &:after {
       content: " ";
