@@ -1,5 +1,5 @@
 <template>
-  <div class="Location">
+  <div class="Location" id="Location">
     <div class="smart-object"></div>
 
     <iframe

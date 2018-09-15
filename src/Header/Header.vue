@@ -16,11 +16,11 @@
         <a class="Item" href="#Schedule">Schedule</a>
         <a class="Item" href="#Speakers">Speakers</a>
         <a class="Item" href="#Sponsors">Sponsors</a>
-        <a class="Item" href="#Team">Team</a>
+        <!-- <a class="Item" href="#Team">Team</a> -->
         <a class="Item" href="#Location">Location</a>
         <a class="Item" href="#Faq">Faq</a>
-        <a class="Item" href="#Quizz">Quiz</a>
-        <!-- <a class="Item RequestInvite" href="" target="_blank" >Request an Invite</a> -->
+        <a class="Item" href="#Quiz">Quiz</a>
+        <a class="Item RequestInvite" href="" target="_blank" >Request an Invite</a>
       </nav>
     </div>
   </div>
@@ -107,7 +107,8 @@ export default {
   justify-content: flex-end;
 
   .Item {
-    display: block;
+    display: flex;
+    align-items: center;
     padding: .5em .8em;
     color: #000;
     margin: 0 .1em;
@@ -128,12 +129,29 @@ export default {
       left: 0;
       width: 100%;
       height: 100%;
+      z-index: -1;
     }
 
     &.active,
     &:hover {
       &:after {
         top: 0;
+      }
+    }
+
+    &.RequestInvite {
+      border: 2px solid #ffdd00;
+      border-radius: 2px;
+      margin-left: 10px;
+
+      &:after {
+        // display: none;
+        background-color: #ffdd00;
+      }
+
+      &:hover {
+        // background-color: #ffdd00;
+        // color: #fff;
       }
     }
   }

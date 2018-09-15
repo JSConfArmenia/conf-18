@@ -1,5 +1,5 @@
 <template>
-  <div class="Quiz">
+  <div class="Quiz" id="Quiz">
     <div class="Context">
       <div class="Title">
         QUIZ

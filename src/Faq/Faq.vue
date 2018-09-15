@@ -1,5 +1,5 @@
 <template>
-  <div class="Faq">
+  <div class="Faq" id="Faq">
     <h2 class="Title"> FREQUENTLY ASKED QUESTIONS</h2>
 
     <div class="row Answers">
