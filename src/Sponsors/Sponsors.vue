@@ -1,31 +1,25 @@
 <template>
   <section class="Sponsors" id="Sponsors">
-    <div class="Context">
+    <div class="Container">
       <h3 class="Subtitle">Sponsors</h3>
 
       <div class="row justify-content-center">
-        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-Betconstruct" href="https://www.betconstruct.com/" target="_blank">
+        <div class="col-6 col-sm-6 col-md-4">
+          <a class="Sponsor Sponsor-Simply -main" href="https://www.simplytechnologies.net/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
-        <div class="col-6  col-sm-6 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-Renderforest" href="https://www.renderforest.com/" target="_blank">
-            <div class="Image"></div>
-          </a>
-        </div>
+      </div>
+
+      <div class="row justify-content-center">
+
         <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-WorkFront" href="https://www.workfront.com/" target="_blank">
-            <div class="Image"></div>
-          </a>
-        </div>
-        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-Benivo" href="https://www.benivo.com/" target="_blank">
+          <a class="Sponsor Sponsor-SFL -silver" href="https://sflpro.com/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
         <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-SFL" href="https://sflpro.com/" target="_blank">
+          <a class="Sponsor Sponsor-Synergy -silver" href="https://www.synisys.com/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
@@ -36,17 +30,27 @@
 
       <div class="row justify-content-center">
         <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-Simply" href="https://www.simplytechnologies.net/" target="_blank">
+          <a class="Sponsor Sponsor-itjobs -silver" href="https://www.itjobs.am/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
+
         <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-itjobs" href="https://www.itjobs.am/" target="_blank">
+          <a class="Sponsor Sponsor-aua -silver" href="https://www.aua.am/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
       </div>
+
+      <div class="CallToActionContainer">
+        <a href="mailto:hello@jsconf.am" class="Button -call-to-action -small" target="_blank">
+          Become a sponsor!
+        </a>
+      </div>
     </div>
+
+    <div class="SponsorsBgTop"></div>
+    <div class="SponsorsBgBottom"></div>
   </section>
 </template>
 
@@ -58,13 +62,21 @@ export default {
 
 <style scoped lang="scss">
 .Sponsors {
-  padding: 250px 0;
-  background-image: url('./SponsorsBg.png');
+  padding: 15vw 0;
+  background-color: #f5f5f5;
+  // background-color: #f5f5f5;
+  // background-image: url('./SponsorsBg.png');
   background-repeat: no-repeat;
   min-height: 1000px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+}
+
+.Container {
+  position: relative;
+  z-index: 3;
 }
 
 .Subtutle {
@@ -79,55 +91,87 @@ export default {
   font-weight: bold;
 }
 
-.Sponsor .Image {
-  background-repeat: no-repeat;
-  opacity: .8;
-  transition: all .3s ease;
+.Sponsor {
 
-  &:hover {
-    opacity: 1;
+  .Image {
+    background-repeat: no-repeat;
+    opacity: .8;
+    transition: all .3s ease;
+    background-size: contain;
+    background-position: 50%;
+
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  &.-main .Image {
+    height: 150px;
+    width: 350px;
+  }
+
+  &.-silver .Image {
+    width: 180px;
+    height: 140px;
+  }
+
+  &.Sponsor-SFL .Image {
+    background-image: url('/sponsors/sfl.svg');
+  }
+
+  &.Sponsor-Synergy .Image {
+    // width: 80px;
+    background-image: url('/sponsors/synergy.svg');
+  }
+
+  &.Sponsor-Simply .Image {
+    background-image: url('/sponsors/simply.svg');
+  }
+
+  &.Sponsor-itjobs .Image {
+    width: 80px;
+    background-image: url('/sponsors/itjobs.svg');
+  }
+
+  &.Sponsor-aua .Image {
+    width: 80px;
+    background-image: url('/sponsors/aua.png');
   }
 }
 
-.Sponsor .Image {
-  background-size: contain;
-  background-position: 50%;
-  width: 150px;
-  height: 120px;
+.CallToActionContainer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.SponsorsBgTop,
+.SponsorsBgBottom {
+  position: absolute;
+  left: 0;
+  right: 0;
   background-repeat: no-repeat;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  background-size: 100%;
 }
 
-.Sponsor-Betconstruct .Image {
-  background-image: url('./logo/Betconstruct.png');
+.SponsorsBgTop {
+  top: 0;
+  padding-bottom: 15%;
+  background-image: url('./SponsorsBgTop.svg');
+  background-size: cover;
+  background-position: right 0 bottom -17vw;
 }
 
-.Sponsor-Renderforest .Image {
-  background-image: url('./logo/Renderforest.png');
-}
-
-.Sponsor-WorkFront .Image {
-  background-image: url('./logo/WorkFront.png');
-}
-
-.Sponsor-Benivo .Image {
-  width: 90px;
-  background-image: url('./logo/Benivo.png');
-}
-
-.Sponsor-SFL .Image {
-  width: 80px;
-  background-image: url('./logo/SFL.png');
-}
-
-.Sponsor-Simply .Image {
-  background-image: url('./logo/Simply.png');
-}
-
-.Sponsor-itjobs .Image {
-  width: 80px;
-  background-image: url('./logo/itjobs.png');
+.SponsorsBgBottom {
+  bottom: 0;
+  padding-bottom: 15%;
+  background-image: url('./SponsorsBgBottom.svg');
+  background-size: cover;
+  background-position: right 0 top -17vw;
 }
 
 @media (min-width: 1200px) {

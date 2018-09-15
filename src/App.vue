@@ -74,7 +74,7 @@ export default {
   display: inline-block;
   color: #666;
   position: relative;
-  box-shadow: 0px 27px 30px 8.16px rgba(162, 162, 162, 0.3);
+  box-shadow: 0px 1.68em 1.875em 0.5em rgba(162, 162, 162, 0.3);
   transition: all .3s ease;
   top: 0;
   border-top: 2px solid transparent;
@@ -88,8 +88,22 @@ export default {
     }
   }
 
+  &.-call-to-action {
+    background: #ef4e4e;
+    color: #fff;
+
+    &:hover {
+      background: #ef4e4e;
+      color: #fff;
+    }
+  }
+
+  &.-small {
+    font-size: .8em;
+    padding: .7em 2em;
+  }
+
   &:hover {
-    box-shadow: 0px 29px 42.84px 8.16px rgba(162, 162, 162, 0.3);
     text-decoration: none;
     color: #524d31e7;
     top: -2px;
@@ -97,9 +111,13 @@ export default {
 
   &:active {
     top: 1px;
-    box-shadow: 0px 27px 30px 8.16px rgba(162, 162, 162, 0.3);
     transform: all .1s ease;
     color: #ffdd00;
+  }
+
+  &:hover,
+  &:active {
+    box-shadow: 0px 1.81em 2.7em 0.5em rgba(162, 162, 162, 0.3);
   }
 }
 

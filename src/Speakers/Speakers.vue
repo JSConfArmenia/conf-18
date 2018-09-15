@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="CallToActionContainer">
-        <a href="http://bit.ly/speakJS" class="Button" target="_blank">
+        <a href="http://bit.ly/speakJS" class="Button -call-to-action" target="_blank">
           Become a Ninja!
         </a>
       </div>
@@ -71,14 +71,7 @@ export default {
 
 .SpeakerCol {
   display: flex;
-  &.col-md-4:nth-child(2) {
-    justify-content: center;
-  }
-
-
-  &.col-md-4:nth-child(3) {
-    justify-content: flex-end;
-  }
+  justify-content: center;
 }
 
 .Speaker {
@@ -108,11 +101,6 @@ export default {
 .CallToActionContainer {
   padding-top: 50px;
   text-align: center;
-
-  .Button {
-    background: #ef4e4e;
-    color: #fff;
-  }
 }
 
 .SpeakersBg {
