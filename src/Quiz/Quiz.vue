@@ -9,25 +9,25 @@
       </div>
 
       <div class="row justify-content-center Badges">
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3  col-xl-3">
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
           <a class="Badge Badge-JavaScript" href="#js">
             <div class="Image"></div>
             <h3 class="Name">JavaScript</h3>
           </a>
         </div>
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3  col-xl-3">
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
           <a class="Badge Badge-Node" href="#node">
             <div class="Image"></div>
             <h3 class="Name">Node.JS</h3>
           </a>
         </div>
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3  col-xl-3">
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
           <a class="Badge Badge-React" href="#react">
             <div class="Image"></div>
             <h3 class="Name">React</h3>
           </a>
         </div>
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3  col-xl-3">
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
           <a class="Badge Badge-Angular" href="#angular">
             <div class="Image"></div>
             <h3 class="Name">Angular</h3>
@@ -115,7 +115,6 @@ export default {
   text-align: center;
   color: black;
   text-transform: uppercase;
-
 }
 
 .Badge-JavaScript .Image {

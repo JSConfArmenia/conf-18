@@ -1,9 +1,52 @@
 <template>
   <section class="Sponsors" id="Sponsors">
-    <h3 class="Subtitle">Sponsors</h3>
+    <div class="Context">
+      <h3 class="Subtitle">Sponsors</h3>
+
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
+          <a class="Sponsor Sponsor-Betconstruct" href="bBetconstruct">
+            <div class="Image"></div>
+          </a>
+        </div>
+        <div class="col-6  col-sm-6 col-md-3 col-lg-3 col-xl-2">
+          <a class="Sponsor Sponsor-Renderforest" href="#renderforest">
+            <div class="Image"></div>
+          </a>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
+          <a class="Sponsor Sponsor-WorkFront" href="#workfront">
+            <div class="Image"></div>
+          </a>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
+          <a class="Sponsor Sponsor-Benivo" href="#benivo">
+            <div class="Image"></div>
+          </a>
+        </div>
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
+          <a class="Sponsor Sponsor-SFL" href="#sfl">
+            <div class="Image"></div>
+          </a>
+        </div>
+      </div>
 
 
-    <h3 class="Subtitle">Partners and friends</h3>
+      <h3 class="Subtitle">Partners and friends</h3>
+
+      <div class="row justify-content-center">
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <a class="Sponsor Sponsor-Simply" href="#simply">
+            <div class="Image"></div>
+          </a>
+        </div>
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+          <a class="Sponsor Sponsor-itjobs" href="#itjobs">
+            <div class="Image"></div>
+          </a>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -15,12 +58,72 @@ export default {
 
 <style scoped lang="scss">
 .Sponsors {
-  background-color: #f5f5f5;
   padding: 250px 0;
+  background-image: url('./SponsorsBg.png');
+  background-repeat: no-repeat;
+  min-height: 1000px;
+  display: flex;
+  align-items: center;
+}
+
+.Context {
+  width: 100%;
 }
 
 .Subtutle {
   color: #ef4e4e;
   font-size: 32px;
 }
+
+.Subtitle {
+  color: #ef4e4e;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Sponsor {
+  background-repeat: no-repeat;
+}
+
+.Sponsor .Image {
+  background-size: contain;
+  background-position: 50%;
+  width: 150px;
+  height: 120px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.Sponsor-Betconstruct .Image {
+  background-image: url('./logo/Betconstruct.png');
+}
+
+.Sponsor-Renderforest .Image {
+  background-image: url('./logo/Renderforest.png');
+}
+
+.Sponsor-WorkFront .Image {
+  background-image: url('./logo/WorkFront.png');
+}
+
+.Sponsor-Benivo .Image {
+  width: 90px;
+  background-image: url('./logo/Benivo.png');
+}
+
+.Sponsor-SFL .Image {
+  width: 80px;
+  background-image: url('./logo/SFL.png');
+}
+
+.Sponsor-Simply .Image {
+  background-image: url('./logo/Simply.png');
+}
+
+.Sponsor-itjobs .Image {
+  width: 80px;
+  background-image: url('./logo/itjobs.png');
+}
+
 </style>

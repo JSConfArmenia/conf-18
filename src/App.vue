@@ -5,6 +5,7 @@
     <About />
     <Schedule />
     <Speakers />
+    <Sponsors />
     <Location />
     <Faq />
     <Quiz />
