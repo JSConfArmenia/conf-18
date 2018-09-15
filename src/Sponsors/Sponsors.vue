@@ -130,4 +130,9 @@ export default {
   background-image: url('./logo/itjobs.png');
 }
 
+@media (min-width: 1200px) {
+  .Context {
+    width: 90%;
+  }
+}
 </style>
