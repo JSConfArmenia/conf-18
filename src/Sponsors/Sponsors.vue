@@ -5,27 +5,27 @@
 
       <div class="row justify-content-center">
         <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-Betconstruct" href="bBetconstruct">
+          <a class="Sponsor Sponsor-Betconstruct" href="https://www.betconstruct.com/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
         <div class="col-6  col-sm-6 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-Renderforest" href="#renderforest">
+          <a class="Sponsor Sponsor-Renderforest" href="https://www.renderforest.com/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
         <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-WorkFront" href="#workfront">
+          <a class="Sponsor Sponsor-WorkFront" href="https://www.workfront.com/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
         <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-Benivo" href="#benivo">
+          <a class="Sponsor Sponsor-Benivo" href="https://www.benivo.com/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
         <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-SFL" href="#sfl">
+          <a class="Sponsor Sponsor-SFL" href="https://sflpro.com/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
@@ -36,12 +36,12 @@
 
       <div class="row justify-content-center">
         <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-Simply" href="#simply">
+          <a class="Sponsor Sponsor-Simply" href="https://www.simplytechnologies.net/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
         <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-itjobs" href="#itjobs">
+          <a class="Sponsor Sponsor-itjobs" href="https://www.itjobs.am/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>

@@ -19,7 +19,7 @@ export default {
 
 <style scoped lang="scss">
 .Location {
-  margin-top: 60px;
+  padding: 100px 0;
   position: relative;
   display: flex;
   align-items: center;

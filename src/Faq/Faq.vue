@@ -31,7 +31,7 @@
 
         <h3 class="Question">When is it going to take place?</h3>
         <p class="Answer">
-          The conference will take place from 10:00 to 18:00 on December 9, 2017.
+          The conference will take place from 10:00 to 18:00 on November 3, 2017.
         </p>
 
         <h3 class="Question">Where is it going to be held?</h3>
@@ -107,7 +107,7 @@ export default {
   align-items: center;
   justify-content: flex-end;
   flex-direction: column;
-  margin: 120px 20px;
+  padding: 100px 0;
 }
 
 a {
