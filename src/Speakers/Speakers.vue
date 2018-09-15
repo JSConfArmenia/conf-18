@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="CallToActionContainer">
-        <a href="" class="Button">
+        <a href="http://bit.ly/speakJS" class="Button" target="_blank">
           Become a Ninja!
         </a>
       </div>
