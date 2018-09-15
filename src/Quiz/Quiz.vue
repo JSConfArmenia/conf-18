@@ -10,25 +10,25 @@
 
       <div class="row justify-content-center Badges">
         <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-          <a class="Badge Badge-JavaScript" href="#js">
+          <a class="Badge Badge-JavaScript" href="https://www.itjobs.am/quiz/5a1932d735619ae957438247" target="_blank">
             <div class="Image"></div>
             <h3 class="Name">JavaScript</h3>
           </a>
         </div>
         <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-          <a class="Badge Badge-Node" href="#node">
+          <a class="Badge Badge-Node" href="https://www.itjobs.am/quiz/5a19626835619ae95743b13f" target="_blank">
             <div class="Image"></div>
             <h3 class="Name">Node.JS</h3>
           </a>
         </div>
         <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-          <a class="Badge Badge-React" href="#react">
+          <a class="Badge Badge-React" href="https://www.itjobs.am/quiz/5a19630b35619ae95743b1cd" target="_blank">
             <div class="Image"></div>
             <h3 class="Name">React</h3>
           </a>
         </div>
         <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-          <a class="Badge Badge-Angular" href="#angular">
+          <a class="Badge Badge-Angular" href="https://www.itjobs.am/quiz/5a27a0bc35619ae95751dda3" target="_blank">
             <div class="Image"></div>
             <h3 class="Name">Angular</h3>
           </a>
