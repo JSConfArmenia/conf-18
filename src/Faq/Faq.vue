@@ -31,7 +31,7 @@
 
         <h3 class="Question">When is it going to take place?</h3>
         <p class="Answer">
-          The conference will take place from 10:00 to 18:00 on November 3, 2017.
+          The conference will take place from 10:00 to 18:00 on November 3, 2018.
         </p>
 
         <h3 class="Question">Where is it going to be held?</h3>
@@ -43,7 +43,7 @@
 
         <h3 class="Question">How to participate?</h3>
         <p class="Answer">
-          The entry of JS Conference Yerevan 2017 is invitation-only so
+          The entry of JS Conference Yerevan 2018 is invitation-only so
           please make sure to request your invite
           <a href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2" target="_blank">here</a>.
         </p>

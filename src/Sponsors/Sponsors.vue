@@ -64,10 +64,7 @@ export default {
   min-height: 1000px;
   display: flex;
   align-items: center;
-}
-
-.Context {
-  width: 100%;
+  justify-content: center;
 }
 
 .Subtutle {
