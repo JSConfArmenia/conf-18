@@ -45,6 +45,9 @@ export default {
   height: 30vw;
   top: 0;
   left: 0;
+  box-shadow: 1px -4px 23px -6px grey;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 @media (max-width: 680px) {

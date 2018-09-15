@@ -3,6 +3,7 @@
     <AppHeader />
     <Intro />
     <About />
+    <Schedule />
     <Location />
     <Faq />
     <Quiz />
@@ -14,6 +15,7 @@
 import AppHeader from './Header/Header.vue';
 import Intro from './Intro/Intro.vue';
 import About from './About/About.vue';
+import Schedule from './Schedule/Schedule.vue';
 import Location from './Location/Location.vue';
 import Faq from './Faq/Faq.vue';
 import Quiz from './Quiz/Quiz.vue';
@@ -25,6 +27,7 @@ export default {
     AppHeader,
     Intro,
     About,
+    Schedule,
     Location,
     Faq,
     Quiz,
@@ -89,6 +92,18 @@ export default {
     transform: all .1s ease;
     color: #ffdd00;
   }
+}
+
+.Title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: .2em;
+  text-transform: uppercase;
+}
+
+.Subtitle {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 </style>

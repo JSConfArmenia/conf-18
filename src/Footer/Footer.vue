@@ -17,7 +17,7 @@
     </div>
 
     <p class="Credits">
-      Design and branding assitance by
+      Design and branding by
       <a href="http://digitalfactory.co/" target="_blank">Digital Factory</a>,
       coded in Vue.js by <a href="https://github.com/modularcoder" target="_blank">@modularcoder</a>,
       <a href="https://github.com/nairihar" target="_blank">@nairihar</a> and

@@ -37,6 +37,8 @@ export default {
 .About {
   padding-top: 50px;
   background-image: linear-gradient(to bottom, #fff, #f5f5f5);
+  position: relative;
+  z-index: 9;
 }
 
 .Title {

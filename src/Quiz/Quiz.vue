@@ -90,6 +90,17 @@ export default {
   margin-top: 50px;
 }
 
+.Badge {
+  text-decoration: none;
+  opacity: .8;
+  transition: all .3s ease;
+  display: block;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
 .Badge .Image {
   background-size: contain;
   background-position: 50%;
@@ -104,6 +115,7 @@ export default {
   text-align: center;
   color: black;
   text-transform: uppercase;
+
 }
 
 .Badge-JavaScript .Image {
