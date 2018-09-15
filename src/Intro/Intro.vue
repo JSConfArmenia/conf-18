@@ -43,6 +43,8 @@ export default {
 .Title {
   font-size: 60px;
   line-height: 70px;
+  font-weight: 900;
+  text-transform: none;
 }
 
 .Subtitle {

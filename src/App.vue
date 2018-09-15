@@ -4,6 +4,7 @@
     <Intro />
     <About />
     <Schedule />
+    <Speakers />
     <Location />
     <Faq />
     <Quiz />
@@ -16,6 +17,8 @@ import AppHeader from './Header/Header.vue';
 import Intro from './Intro/Intro.vue';
 import About from './About/About.vue';
 import Schedule from './Schedule/Schedule.vue';
+import Speakers from './Speakers/Speakers.vue';
+import Sponsors from './Sponsors/Sponsors.vue';
 import Location from './Location/Location.vue';
 import Faq from './Faq/Faq.vue';
 import Quiz from './Quiz/Quiz.vue';
@@ -28,6 +31,8 @@ export default {
     Intro,
     About,
     Schedule,
+    Speakers,
+    Sponsors,
     Location,
     Faq,
     Quiz,
@@ -76,6 +81,10 @@ export default {
 
   &.-default {
     background-color: #ffffff;
+
+    &:hover {
+      border-bottom: 2px solid #ffdd00;
+    }
   }
 
   &:hover {
@@ -83,7 +92,6 @@ export default {
     text-decoration: none;
     color: #524d31e7;
     top: -2px;
-    border-bottom: 2px solid #ffdd00;
   }
 
   &:active {
