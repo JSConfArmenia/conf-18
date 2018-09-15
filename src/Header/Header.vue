@@ -6,8 +6,10 @@
     }">
     <div class="Container HeaderContainer">
       <div class="LogoContainer">
-        <Logo
-          :variation="isSticked ? 'compact' : 'full'" />
+        <a href="#Intro">
+          <Logo
+            :variation="isSticked ? 'compact' : 'full'" />
+        </a>
       </div>
       <nav class="Navigation">
         <a class="Item" href="#About">About</a>

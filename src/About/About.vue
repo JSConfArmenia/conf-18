@@ -35,6 +35,7 @@ export default {
 
 <style scoped>
 .About {
+  padding-top: 50px;
   background-image: linear-gradient(to bottom, #fff, #f5f5f5);
 }
 
