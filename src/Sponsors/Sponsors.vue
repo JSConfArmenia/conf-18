@@ -79,10 +79,17 @@ export default {
   color: #ef4e4e;
   text-align: center;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
-.Sponsor {
+.Sponsor .Image {
   background-repeat: no-repeat;
+  opacity: .8;
+  transition: all .3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .Sponsor .Image {
