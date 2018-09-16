@@ -9,7 +9,7 @@
       <div class="LogoContainer">
         <a href="#Intro">
           <Logo
-            :variation="isSticked ? 'compact' : 'full'" />
+            :variation="isSticked ? 'compact' : isOpen ? 'open' : 'full'" />
         </a>
       </div>
 
