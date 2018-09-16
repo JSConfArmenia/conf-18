@@ -194,8 +194,8 @@ export default {
     flex-direction: column;
     width: 100%;
     padding: 10px;
-    align-items: flex-end ;
-    margin-top: 50px;
+    align-items: center;
+    margin-top: 50px; 
   }
 
   .Navigation .Item {
