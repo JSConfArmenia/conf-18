@@ -14,7 +14,11 @@
       </div>
 
       <a class="NavBtn" v-on:click="toggle">
-        <i class="fa" v-bind:class="{ 'fa-bars': !isOpen , 'fa-times': isOpen}" aria-hidden="true"></i>
+        <i
+          class="fa"
+          v-bind:class="{ 'fa-bars': !isOpen , 'fa-times': isOpen}"
+          aria-hidden="true"
+        ></i>
       </a>
       <nav class="Navigation" v-smooth-scroll="navConfig">
         <a class="Item" href="#About" v-smooth-scroll="navConfig" v-on:click="close">About</a>
@@ -195,7 +199,7 @@ export default {
     width: 100%;
     padding: 10px;
     align-items: center;
-    margin-top: 50px; 
+    margin-top: 50px;
   }
 
   .Navigation .Item {
