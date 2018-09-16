@@ -31,16 +31,20 @@ export default {
   background-image: url('./Logo.svg');
   background-size: contain;
 
-  &.open {
-    margin-top: -30px;
-  }
-  
   &.compact, &.open {
+    height: 26px;
     padding-bottom: 0;
-    height: 40px;
     background-size: 100px;
     background-position-y: -55px;
     overflow: hidden;
+  }
+
+  &.open {
+    margin-top: -33px;
+  }
+
+  &.compact {
+    margin-top: 0px;
   }
 }
 </style>

@@ -186,13 +186,9 @@ export default {
 
 @media (max-width: 600px) {
   .Navigation {
-    display: none;
-  }
-
-  .Header.-open .Navigation {
     position: absolute;
     left: 0;
-    top: 0;
+    top: -500px;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -200,6 +196,12 @@ export default {
     padding: 10px;
     align-items: center;
     margin-top: 50px;
+    transition: top .3s ease;
+  }
+
+  .Header.-open .Navigation {
+    top: 0;
+    transition: top .3s ease;
   }
 
   .Navigation .Item {
