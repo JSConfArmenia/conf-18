@@ -4,7 +4,7 @@
       <h3 class="Subtitle">Sponsors</h3>
 
       <div class="row justify-content-center">
-        <div class="col-6 col-sm-6 col-md-4">
+        <div>
           <a class="Sponsor Sponsor-Simply -main" href="https://www.simplytechnologies.net/" target="_blank">
             <div class="Image"></div>
           </a>
@@ -13,12 +13,12 @@
 
       <div class="row justify-content-center">
 
-        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
+        <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-2">
           <a class="Sponsor Sponsor-SFL -silver" href="https://sflpro.com/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
-        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
+        <div class="col-8 col-sm-8 col-md-3 col-lg-3 col-xl-2">
           <a class="Sponsor Sponsor-Synergy -silver" href="https://www.synisys.com/" target="_blank">
             <div class="Image"></div>
           </a>

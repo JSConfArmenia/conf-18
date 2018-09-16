@@ -172,6 +172,11 @@ export default {
     box-shadow: none;
   }
 
+  .Badges {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
   .VectorRight, .VectorLeft {
     display: none;
   }

@@ -106,4 +106,32 @@ export default {
     content: " ";
   }
 }
+
+@media (max-width: 700px) {
+  .IntroBgRight {
+    &:after {
+      height: 25vw;
+      left: 75%;
+      top: 17%;
+      width: 25vw;
+    }
+  }
+
+  .Title {
+    font-size: 45px;
+  }
+
+  .Subtitle {
+    font-size: 30px;
+  }
+
+  .IntroSponsor {
+    right: initial;
+    bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
 </style>
