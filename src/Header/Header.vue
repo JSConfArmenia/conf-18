@@ -2,6 +2,7 @@
   <div
     class="Header"
     :class="{
+      '-open': isOpen,
       '-sticked': isSticked,
     }">
     <div class="Container HeaderContainer">
@@ -11,15 +12,19 @@
             :variation="isSticked ? 'compact' : 'full'" />
         </a>
       </div>
-      <nav class="Navigation">
-        <a class="Item" href="#About">About</a>
-        <a class="Item" href="#Schedule">Schedule</a>
-        <a class="Item" href="#Speakers">Speakers</a>
-        <a class="Item" href="#Sponsors">Sponsors</a>
+
+      <a class="NavBtn" v-on:click="toggle">
+        <i class="fa" v-bind:class="{ 'fa-bars': !isOpen , 'fa-times': isOpen}" aria-hidden="true"></i>
+      </a>
+      <nav class="Navigation" v-smooth-scroll="navConfig">
+        <a class="Item" href="#About" v-smooth-scroll="navConfig" v-on:click="close">About</a>
+        <a class="Item" href="#Schedule" v-smooth-scroll="navConfig" v-on:click="close">Schedule</a>
+        <a class="Item" href="#Speakers" v-smooth-scroll="navConfig" v-on:click="close">Speakers</a>
+        <a class="Item" href="#Sponsors" v-smooth-scroll="navConfig" v-on:click="close">Sponsors</a>
         <!-- <a class="Item" href="#Team">Team</a> -->
-        <a class="Item" href="#Location">Location</a>
-        <a class="Item" href="#Faq">Faq</a>
-        <a class="Item" href="#Quiz">Quiz</a>
+        <a class="Item" href="#Location" v-smooth-scroll="navConfig" v-on:click="close">Location</a>
+        <a class="Item" href="#Faq" v-smooth-scroll="navConfig" v-on:click="close">Faq</a>
+        <a class="Item" href="#Quiz" v-smooth-scroll="navConfig" v-on:click="close">Quiz</a>
         <a class="Item RequestInvite" href="" target="_blank" >Request an Invite</a>
       </nav>
     </div>
@@ -37,6 +42,11 @@ export default {
   data() {
     return {
       scrollPos: window.scrollY,
+      isOpen: false,
+      navConfig: {
+        duration: 1000,
+        offset: -66,
+      },
     };
   },
   methods: {
@@ -45,6 +55,14 @@ export default {
       // console.log(event);
 
       this.scrollPos = window.scrollY;
+    },
+    toggle(event) {
+      event.preventDefault();
+
+      this.isOpen = !this.isOpen;
+    },
+    close() {
+      this.isOpen = false;
     },
   },
   computed: {
@@ -78,7 +96,7 @@ export default {
 
   &.-sticked {
     position: fixed;
-    min-height: auto;
+    min-height: 55px;
     background: #fff;
     box-shadow: 0px 8px 30px 8.16px rgba(162, 162, 162, 0.3);
   }
@@ -88,6 +106,7 @@ export default {
 .HeaderContainer {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   position: relative;
   width: 100%;
   padding-left: 130px;
@@ -95,8 +114,8 @@ export default {
 
 .LogoContainer {
   position: absolute;
-  top: 0;
   left: 15px;
+  z-index: 2;
 }
 
 .Navigation {
@@ -154,6 +173,55 @@ export default {
         // color: #fff;
       }
     }
+  }
+}
+
+.NavBtn {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .Navigation {
+    display: none;
+  }
+
+  .Header.-open .Navigation {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    align-items: flex-end ;
+    margin-top: 50px;
+  }
+
+  .Navigation .Item {
+    width: 50%;
+    justify-content: center;
+  }
+
+  .NavigationButton {
+    display: inline;
+  }
+
+  .HeaderContainer {
+    position: initial;
+  }
+
+  .NavBtn {
+    display: inline;
+    top: 0;
+    position: absolute;
+    right: 0;
+    margin: 8px 15px;
+    font-size: 30px;
+  }
+
+  .Header.-open {
+    background: #fff;
   }
 }
 </style>
