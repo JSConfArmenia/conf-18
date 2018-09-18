@@ -111,6 +111,16 @@ export default {
   }
 }
 
+@media (max-width: 450px) {
+  .Subtitle {
+    text-shadow: 1px 1px 1px #f5f5f591;
+  }
+
+  .IntroBgMain {
+    opacity: 0.77;
+  }
+}
+
 @media (max-width: 600px) {
   .Button {
     padding: 0.7em 2em;
