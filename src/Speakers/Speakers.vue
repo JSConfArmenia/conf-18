@@ -116,4 +116,10 @@ export default {
   background-position-y: 12%;
   background-position-x: right;
 }
+
+@media (max-width: 600px) {
+  .Title {
+    font-size: 3em;
+  }
+}
 </style>

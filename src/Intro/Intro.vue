@@ -11,7 +11,7 @@
     <div class="IntroSponsor">
       <div>
         <a href="https://www.simplytechnologies.net/" target="_blank">
-          <img src="/sponsors/simply.svg" width="320" />
+          <img src="/sponsors/simply.svg" />
         </a>
       </div>
       <div class="Description">
@@ -58,6 +58,10 @@ export default {
   display: block;
   font-size: .8em;
   text-align: center;
+}
+
+.IntroSponsor img {
+  width: 320px;
 }
 
 .IntroBgLeft {
@@ -107,6 +111,16 @@ export default {
   }
 }
 
+@media (max-width: 600px) {
+  .Button {
+    padding: 0.7em 2em;
+  }
+
+  .IntroSponsor img {
+    width: 260px;
+  }
+}
+
 @media (max-width: 700px) {
   .IntroBgRight {
     &:after {
@@ -127,7 +141,7 @@ export default {
 
   .IntroSponsor {
     right: initial;
-    bottom: 15px;
+    bottom: 5px;
     display: flex;
     flex-direction: column;
     width: 100%;

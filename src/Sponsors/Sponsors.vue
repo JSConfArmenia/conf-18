@@ -13,12 +13,12 @@
 
       <div class="row justify-content-center">
 
-        <div class="col-4 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
           <a class="Sponsor Sponsor-SFL -silver" href="https://sflpro.com/" target="_blank">
             <div class="Image"></div>
           </a>
         </div>
-        <div class="col-8 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+        <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
           <a class="Sponsor Sponsor-Synergy -silver" href="https://www.synisys.com/" target="_blank">
             <div class="Image"></div>
           </a>
@@ -177,6 +177,24 @@ export default {
 @media (min-width: 1200px) {
   .Context {
     width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .Sponsor.-main .Image {
+    height: 90px;
+    width: 250px;
+  }
+
+  .Sponsor-aua .Image,
+  .Sponsor-itjobs .Image {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  .Sponsor.-silver .Image {
+    width: 140px;
+    height: 105px;
   }
 }
 </style>
