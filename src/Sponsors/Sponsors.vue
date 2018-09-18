@@ -43,7 +43,7 @@
       </div>
 
       <div class="CallToActionContainer">
-        <a href="mailto:hello@jsconf.am" class="Button -call-to-action -small" target="_blank">
+        <a href="http://bit.ly/supportArmJS" class="Button -call-to-action -small" target="_blank">
           Become a sponsor!
         </a>
       </div>

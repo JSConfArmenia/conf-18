@@ -3,7 +3,7 @@
     <div class="Container">
       <h1 class="Title">JavaScript Conference <br> Armenia</h1>
       <h3 class="Subtitle">November 3, 2018</h3>
-      <a href="" class="Button -default">
+      <a href="http://bit.ly/joinJSConf2018" class="Button -default" target="_blank">
         Request an Invite
       </a>
     </div>

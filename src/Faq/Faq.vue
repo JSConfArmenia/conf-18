@@ -45,7 +45,7 @@
         <p class="Answer">
           The entry of JS Conference Yerevan 2018 is invitation-only so
           please make sure to request your invite
-          <a href="https://goo.gl/forms/QWQzhSb7HqNn2Hem2" target="_blank">here</a>.
+          <a href="http://bit.ly/joinJSConf2018" target="_blank">here</a>.
         </p>
 
       </div>
@@ -72,7 +72,7 @@
         <h3 class="Question">How can I help the team?</h3>
         <p class="Answer">
           Oh, thank you for your kindness.
-          To help us make the JavaScript Conference Armenia happen please <a href="https://goo.gl/cwwyiz" target="_blank">apply here</a>
+          To help us make the JavaScript Conference Armenia happen please <a href="http://bit.ly/kindninja" target="_blank">apply here</a>
           to become a JS Conf ninja volunteer!
         </p>
 

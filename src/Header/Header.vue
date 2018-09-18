@@ -29,7 +29,7 @@
         <a class="Item" href="#Location" v-smooth-scroll="navConfig" v-on:click="close">Location</a>
         <a class="Item" href="#Faq" v-smooth-scroll="navConfig" v-on:click="close">Faq</a>
         <a class="Item" href="#Quiz" v-smooth-scroll="navConfig" v-on:click="close">Quiz</a>
-        <a class="Item RequestInvite" href="" target="_blank" >Request an Invite</a>
+        <a class="Item RequestInvite" href="http://bit.ly/joinJSConf2018" target="_blank" >Request an Invite</a>
       </nav>
     </div>
   </div>
