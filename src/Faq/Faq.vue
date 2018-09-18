@@ -136,6 +136,9 @@ a {
 }
 
 @media (max-width: 768px) {
+  .Faq {
+    padding: 50px 0 20px;
+  }
 
   .Answers {
     width: 100%;
@@ -149,6 +152,5 @@ a {
   .Question {
     font-size: 1em;
   }
-
 }
 </style>

@@ -121,16 +121,6 @@ export default {
   }
 }
 
-@media (max-width: 600px) {
-  .Button {
-    padding: 0.7em 2em;
-  }
-
-  .IntroSponsor img {
-    width: 260px;
-  }
-}
-
 @media (max-width: 700px) {
   .IntroBgRight {
     &:after {
@@ -155,6 +145,40 @@ export default {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .Button {
+    padding: 0.7em 2em;
+  }
+
+  .IntroSponsor img {
+    width: 260px;
+  }
+
+  .Title {
+    line-height: 55px;
+  }
+
+  .Subtitle {
+    font-size: 27px;
+  }
+
+  .IntroBgMain,
+  .IntroBgRight {
+    top: -20px;
+  }
+}
+
+@media (max-height: 550px) {
+  .Container {
+    margin: -45px auto;
+  }
+
+  .Title {
+    line-height: 55px;
+    font-size: 40px;
   }
 }
 

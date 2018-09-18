@@ -121,5 +121,9 @@ export default {
   .Title {
     font-size: 3em;
   }
+
+  .Speakers {
+    padding: 50px 0 50px;
+  }
 }
 </style>

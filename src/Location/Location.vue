@@ -53,6 +53,7 @@ export default {
 @media (max-width: 680px) {
   .Location {
     flex-direction: column;
+    padding: 50px 0;
   }
 
   .smart-object {

@@ -133,4 +133,10 @@ export default {
   }
 }
 
+@media (max-width: 500px) {
+  .Footer {
+    min-height: 500px;
+  }
+}
+
 </style>

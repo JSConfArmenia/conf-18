@@ -19,8 +19,7 @@ export default {
 
 <style scoped lang="scss">
 .Schedule {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0 100px;
   position: relative;
   // overflow-x: hidden;
   // overflow-y: visible;
@@ -53,6 +52,12 @@ export default {
     border-radius: 50%;
     background-color: #93d8f7;
     display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .Schedule {
+    padding: 50px 0 50px;
   }
 }
 </style>
