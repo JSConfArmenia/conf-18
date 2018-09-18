@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "npm run build && echo dev.jsconf.am > ./dist/CNAME  && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-18.git --branch gh-pages"
+    "deploy": "npm run build && echo dev.jsconf.am > ./dist/CNAME  && gh-pages -d dist --repo git@github.com:JSConfArmenia/conf-18.git --branch gh-pages",
+    "deployMain": "npm run build && echo jsconf.am > ./dist/CNAME && gh-pages -d dist --repo git@github.com:JSConfArmenia/JSConfArmenia.github.io.git --branch master"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
