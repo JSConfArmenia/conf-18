@@ -137,6 +137,10 @@ export default {
   .Footer {
     min-height: 500px;
   }
+
+  .FooterBgLeft {
+    background-color: #ffe549;
+  }
 }
 
 </style>

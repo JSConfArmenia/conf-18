@@ -36,7 +36,7 @@
 
         <h3 class="Question">Where is it going to be held?</h3>
         <p class="Answer">
-          JavaScript Cօnference Yerevan will be held at the B Building of
+          JavaScript Conference Yerevan will be held at the B Building of
           <a href="https://goo.gl/maps/HmDBXyu3G9z" target="_blank">American University of Armenia</a>
           (40 Marshal Baghramyan Ave, Yerevan)․
         </p>
