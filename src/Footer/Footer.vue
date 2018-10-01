@@ -2,7 +2,7 @@
   <div class="Footer">
 
     <div class="LogoContainer">
-      <a href="#Intro">
+      <a href="#Intro" class="LogoLink">
         <Logo
           :size="150" />
       </a>
@@ -14,6 +14,12 @@
       <a class="SocialIcon Icon-Twitter" href="https://twitter.com/jsconf_am/" target="_blank"></a>
       <a class="SocialIcon Icon-Instagram" href="https://www.instagram.com/jsconf.am/" target="_blank"></a>
       <a class="SocialIcon Icon-Youtube" href="https://www.youtube.com/channel/UCkzEOKU959F6_T0OaQBH4VQ/featured" target="_blank"></a>
+    </div>
+
+    <div class="PressRelease">
+      Press Release
+      <a href="/Press-Release-EN.pdf" target="_blank">En</a> |
+      <a href="/Press-Release-AM.pdf" target="_blank">Am</a>
     </div>
 
     <p class="Credits">
@@ -66,6 +72,7 @@ export default {
 
 .SocialLinks {
   display: flex;
+  margin-bottom: 15px;
 }
 
 .SocialIcon {
@@ -125,12 +132,12 @@ export default {
 .Credits {
   margin: 20px;
   font-size: .8em;
+}
 
-  a {
-    text-decoration: underline;
-    color: inherit;
-    font-weight: bold;
-  }
+a:not(.LogoLink):not(.SocialIcon) {
+  text-decoration: underline;
+  color: inherit;
+  font-weight: bold;
 }
 
 @media (max-width: 500px) {

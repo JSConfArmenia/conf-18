@@ -163,7 +163,7 @@ export default {
   }
 
   &.-main .Image {
-    height: 150px;
+    height: 120px;
     width: 350px;
   }
 
