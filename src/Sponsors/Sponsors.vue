@@ -46,37 +46,46 @@
 
         <div class="row justify-content-center">
 
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
             <a class="Sponsor Sponsor-SFL -silver" href="https://sflpro.com/" target="_blank">
               <div class="Image"></div>
               <h4 class="Name">SFL</h4>
             </a>
           </div>
-          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
             <a class="Sponsor Sponsor-Synergy -silver" href="https://www.synisys.com/" target="_blank">
               <div class="Image"></div>
               <h4 class="Name">Synergy</h4>
             </a>
           </div>
 
-          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
             <a class="Sponsor Sponsor-Renderforest -silver" href="https://www.renderforest.com/" target="_blank">
               <div class="Image"></div>
               <h4 class="Name">RenderForest</h4>
             </a>
           </div>
 
-          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
             <a class="Sponsor Sponsor-DF -silver" href="http://digitalfactory.co/" target="_blank">
               <div class="Image"></div>
               <h4 class="Name">Digital Factory</h4>
             </a>
           </div>
 
-          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+          <div class="HR d-none  d-sm-none d-md-block d-lg-block d-xl-block"></div>
+
+          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
             <a class="Sponsor Sponsor-Develandoo -silver" href="https://develandoo.com/" target="_blank">
               <div class="Image"></div>
               <h4 class="Name">Develandoo</h4>
+            </a>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+            <a class="Sponsor Sponsor-Vineti -silver" href="https://vineti.com/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">Vineti</h4>
             </a>
           </div>
 
@@ -97,6 +106,20 @@
             <a class="Sponsor Sponsor-IUNetworks -starter" href="https://www.iunetworks.am/" target="_blank">
               <div class="Image"></div>
               <h4 class="Name">IU Networks</h4>
+            </a>
+          </div>
+
+          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+            <a class="Sponsor Sponsor-Screenful -starter" href="https://screenful.com/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">Screenful</h4>
+            </a>
+          </div>
+
+          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+            <a class="Sponsor Sponsor-EventGeek -starter" href="https://www.eventgeek.com/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">EventGeek</h4>
             </a>
           </div>
         </div>
@@ -178,6 +201,11 @@ export default {
   font-size: 16px;
 }
 
+.HR {
+  width: 100%;
+  height: 1px;
+}
+
 .Sponsor {
 
   padding-top: 30px;
@@ -202,16 +230,22 @@ export default {
     text-align: center;
     color: #666;
     text-decoration: none;
-    font-size: 1.2em;
   }
 
   &:hover {
     // opacity: 1;
   }
 
-  &.-main .Image {
-    height: 60px;
-    width: 350px;
+  &.-main {
+
+    .Image {
+      height: 60px;
+      width: 350px;
+    }
+
+    .Name {
+      font-size: 1.2em;
+    }
   }
 
   &.-gold {
@@ -221,7 +255,7 @@ export default {
     }
 
     .Name {
-      font-size: 1.1em;
+      font-size: 1.14em;
     }
   }
 
@@ -244,7 +278,7 @@ export default {
     }
 
     .Name {
-      font-size: .85em;
+      font-size: .8em;
     }
   }
 
@@ -289,6 +323,11 @@ export default {
     background-size: 150px;
   }
 
+  &.Sponsor-Vineti .Image {
+    background-image: url('/sponsors/vineti.png');
+    background-size: 129px;
+  }
+
   &.Sponsor-Simply .Image {
     background-image: url('/sponsors/simply.svg');
   }
@@ -301,6 +340,16 @@ export default {
   &.Sponsor-IUNetworks .Image {
     background-image: url('/sponsors/iunetworks.png');
     background-size: 132px;
+  }
+
+  &.Sponsor-EventGeek .Image {
+    background-image: url('/sponsors/eventgeek.svg');
+    background-size: 132px;
+  }
+
+  &.Sponsor-Screenful .Image {
+    background-image: url('/sponsors/screenful.png');
+    background-size: 110px;
   }
 
   &.Sponsor-itjobs .Image {

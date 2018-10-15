@@ -15,7 +15,7 @@
         </a>
       </div>
       <div class="Description">
-        Main sponsor
+        General sponsor
       </div>
     </div>
 
