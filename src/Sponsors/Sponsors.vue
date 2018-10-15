@@ -249,8 +249,8 @@ export default {
   }
 
   &.Sponsor-Digitain .Image {
-    background-image: url('/sponsors/digitain.png');
-    background-size: 200px;
+    background-image: url('/sponsors/digitain.svg');
+    background-size: 370px;
   }
 
   &.Sponsor-Workfront .Image {
