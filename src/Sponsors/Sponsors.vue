@@ -20,19 +20,19 @@
 
         <div class="row justify-content-center">
 
-          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-3">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
             <a class="Sponsor Sponsor-Workfront -gold" href="https://www.workfront.com/" target="_blank">
               <div class="Image"></div>
               <h4 class="Name">Workfront</h4>
             </a>
           </div>
-          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
             <a class="Sponsor Sponsor-Digitain -gold" href="https://digitain.com/" target="_blank">
               <div class="Image"></div>
               <h4 class="Name">Digitain</h4>
             </a>
           </div>
-          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-3">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
             <a class="Sponsor Sponsor-Devlix -gold" href="" target="_blank">
               <div class="Image"></div>
               <h4 class="Name">Devlix</h4>
@@ -255,10 +255,12 @@ export default {
 
   &.Sponsor-Workfront .Image {
     background-image: url('/sponsors/workfront.png');
+    background-size: 240px;
   }
 
   &.Sponsor-Devlix .Image {
     background-image: url('/sponsors/devlix.svg');
+    background-size: 240px;
   }
 
   &.Sponsor-SFL .Image {
