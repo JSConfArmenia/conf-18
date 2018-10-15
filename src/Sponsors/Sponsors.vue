@@ -1,105 +1,132 @@
 <template>
   <section class="Sponsors" id="Sponsors">
     <div class="Container">
-      <h3 class="Subtitle">Sponsors</h3>
 
-      <div class="row justify-content-center">
-        <div>
-          <a class="Sponsor Sponsor-Simply -main" href="https://www.simplytechnologies.net/" target="_blank">
-            <div class="Image"></div>
-          </a>
+      <section class="Section">
+        <h3 class="Subtitle">General sponsor</h3>
+
+        <div class="row justify-content-center">
+          <div>
+            <a class="Sponsor Sponsor-Simply -main" href="https://www.simplytechnologies.net/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">Simply Technologies</h4>
+            </a>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="row justify-content-center">
+      <section class="Section">
+        <h3 class="Subtitle">Gold sponsors</h3>
 
-        <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-3">
-          <a class="Sponsor Sponsor-Workfront -gold" href="https://www.workfront.com/" target="_blank">
-            <div class="Image"></div>
-          </a>
+        <div class="row justify-content-center">
+
+          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-3">
+            <a class="Sponsor Sponsor-Workfront -gold" href="https://www.workfront.com/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">Workfront</h4>
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+            <a class="Sponsor Sponsor-Digitain -gold" href="https://digitain.com/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">Digitain</h4>
+            </a>
+          </div>
+          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-3">
+            <a class="Sponsor Sponsor-Devlix -gold" href="" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">Devlix</h4>
+            </a>
+          </div>
         </div>
-        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
-          <a class="Sponsor Sponsor-Digitain -gold" href="https://digitain.com/" target="_blank">
-            <div class="Image"></div>
-          </a>
+      </section>
+
+      <section class="Section">
+        <h3 class="Subtitle">Silver sponsors</h3>
+
+        <div class="row justify-content-center">
+
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
+            <a class="Sponsor Sponsor-SFL -silver" href="https://sflpro.com/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">SFL</h4>
+            </a>
+          </div>
+          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+            <a class="Sponsor Sponsor-Synergy -silver" href="https://www.synisys.com/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">Synergy</h4>
+            </a>
+          </div>
+
+          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+            <a class="Sponsor Sponsor-Renderforest -silver" href="https://www.renderforest.com/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">RenderForest</h4>
+            </a>
+          </div>
+
+          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+            <a class="Sponsor Sponsor-DF -silver" href="http://digitalfactory.co/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">Digital Factory</h4>
+            </a>
+          </div>
+
+          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+            <a class="Sponsor Sponsor-Develandoo -silver" href="https://develandoo.com/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">Develandoo</h4>
+            </a>
+          </div>
+
         </div>
-        <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-3">
-          <a class="Sponsor Sponsor-Devlix -gold" href="" target="_blank">
-            <div class="Image"></div>
-          </a>
+      </section>
+
+      <section class="Section">
+        <h3 class="Subtitle">Starter sponsors</h3>
+
+        <div class="row justify-content-center">
+          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+            <a class="Sponsor Sponsor-Armsoft -starter" href="http://www.armsoft.am/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">ArmSoft</h4>
+            </a>
+          </div>
+          <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
+            <a class="Sponsor Sponsor-IUNetworks -starter" href="https://www.iunetworks.am/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">IU Networks</h4>
+            </a>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="row justify-content-center">
+      <section class="Section">
+        <h3 class="Subtitle">Partners and friends</h3>
 
-        <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-SFL -silver" href="https://sflpro.com/" target="_blank">
-            <div class="Image"></div>
-          </a>
+        <div class="row justify-content-center">
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <a class="Sponsor Sponsor-itjobs -starter" href="https://www.itjobs.am/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">IT Jobs</h4>
+            </a>
+          </div>
+
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <a class="Sponsor Sponsor-aua -starter" href="https://www.aua.am/" target="_blank">
+              <div class="Image"></div>
+              <h4 class="Name">American University <br> of Armenia</h4>
+            </a>
+          </div>
         </div>
-        <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-Synergy -silver" href="https://www.synisys.com/" target="_blank">
-            <div class="Image"></div>
-          </a>
-        </div>
+      </section>
 
-        <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-Renderforest -silver" href="https://www.renderforest.com/" target="_blank">
-            <div class="Image"></div>
-          </a>
-        </div>
-
-        <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-DF -silver" href="http://digitalfactory.co/" target="_blank">
-            <div class="Image"></div>
-          </a>
-        </div>
-
-        <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-Develandoo -silver" href="https://develandoo.com/" target="_blank">
-            <div class="Image"></div>
-          </a>
-        </div>
-
-
-      </div>
-
-      <div class="row justify-content-center">
-        <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-Armsoft -starter" href="http://www.armsoft.am/" target="_blank">
-            <div class="Image"></div>
-          </a>
-        </div>
-        <div class="col-6 col-sm-8 col-md-3 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-IUNetworks -starter" href="https://www.iunetworks.am/" target="_blank">
-            <div class="Image"></div>
-          </a>
-        </div>
-
-      </div>
-
-
-      <h3 class="Subtitle">Partners and friends</h3>
-
-      <div class="row justify-content-center">
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-itjobs -silver" href="https://www.itjobs.am/" target="_blank">
-            <div class="Image"></div>
-          </a>
-        </div>
-
-        <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-          <a class="Sponsor Sponsor-aua -silver" href="https://www.aua.am/" target="_blank">
-            <div class="Image"></div>
-          </a>
-        </div>
-      </div>
-
-      <div class="CallToActionContainer">
+      <!-- <div class="CallToActionContainer">
         <a href="http://bit.ly/supportArmJS" class="Button -call-to-action -small" target="_blank">
           Become a sponsor!
         </a>
-      </div>
+      </div> -->
     </div>
 
     <div class="SponsorsBgTop"></div>
@@ -137,49 +164,88 @@ export default {
   font-size: 32px;
 }
 
+.Section {
+  margin-bottom: 50px;
+}
+
 .Subtitle {
+  color: #acacac;
   color: #ef4e4e;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 1px;
   font-weight: bold;
+  font-size: 16px;
 }
 
 .Sponsor {
 
+  padding-top: 30px;
+  display: block;
+  opacity: .7;
+  transition: all .3s ease;
+  text-decoration: none;
+
   .Image {
     background-repeat: no-repeat;
-    opacity: .8;
-    transition: all .3s ease;
+    // opacity: .8;
+    // transition: all .3s ease;
     background-size: contain;
     background-position: 50%;
 
     background-repeat: no-repeat;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
 
-    &:hover {
-      opacity: 1;
-    }
+  .Name {
+    text-align: center;
+    color: #666;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+
+  &:hover {
+    opacity: 1;
   }
 
   &.-main .Image {
-    height: 120px;
+    height: 60px;
     width: 350px;
   }
 
-  &.-gold .Image {
-    width: 250px;
-    height: 140px;
+  &.-gold {
+    .Image {
+      width: 250px;
+      height: 56px;
+    }
+
+    .Name {
+      font-size: 1.1em;
+    }
   }
 
-  &.-silver .Image {
-    width: 160px;
-    height: 140px;
+  &.-silver {
+    .Image {
+      width: 160px;
+      height: 55px;
+    }
+
+    .Name {
+      font-size: .9em;
+    }
   }
 
-  &.-starter .Image {
-    width: 130px;
-    height: 100px;
+  &.-starter {
+
+    .Image {
+      width: 130px;
+      height: 45px;
+    }
+
+    .Name {
+      font-size: .85em;
+    }
   }
 
   &.Sponsor-Digitain .Image {
@@ -197,26 +263,28 @@ export default {
 
   &.Sponsor-SFL .Image {
     background-image: url('/sponsors/sfl.svg');
+    background-size: 120px;
   }
 
   &.Sponsor-Synergy .Image {
     // width: 80px;
     background-image: url('/sponsors/synergy.svg');
+    background-size: 146px;
   }
 
   &.Sponsor-Develandoo .Image {
-    background-image: url('/sponsors/dvld.svg');
-    background-size: 130px;
+    background-image: url('/sponsors/develandoo.png');
+    background-size: 90px;
   }
 
   &.Sponsor-DF .Image {
     background-image: url('/sponsors/df.png');
-    background-size: 144px;
+    background-size: 129px;
   }
 
   &.Sponsor-Renderforest .Image {
-    background-image: url('/sponsors/renderforest.png');
-    background-size: 80px;
+    background-image: url('/sponsors/renderforest.svg');
+    background-size: 150px;
   }
 
   &.Sponsor-Simply .Image {
@@ -225,10 +293,12 @@ export default {
 
   &.Sponsor-Armsoft .Image {
     background-image: url('/sponsors/armsoft.svg');
+    background-size: 110px;
   }
 
   &.Sponsor-IUNetworks .Image {
     background-image: url('/sponsors/iunetworks.png');
+    background-size: 132px;
   }
 
   &.Sponsor-itjobs .Image {
