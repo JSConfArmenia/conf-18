@@ -182,7 +182,7 @@ export default {
 
   padding-top: 30px;
   display: block;
-  opacity: .7;
+  // opacity: .7;
   transition: all .3s ease;
   text-decoration: none;
 
@@ -206,7 +206,7 @@ export default {
   }
 
   &:hover {
-    opacity: 1;
+    // opacity: 1;
   }
 
   &.-main .Image {
