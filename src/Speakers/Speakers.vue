@@ -19,11 +19,11 @@
           </div>
         </div>
       </div>
-      <div class="CallToActionContainer">
+      <!-- <div class="CallToActionContainer">
         <a href="http://bit.ly/speakJS" class="Button -call-to-action" target="_blank">
           Become a Ninja!
         </a>
-      </div>
+      </div> -->
     </div>
     <div class="SpeakersBg"></div>
   </section>
@@ -39,6 +39,15 @@ export default {
       0,
       2,
       1,
+      8,
+      10,
+      7,
+      3,
+      4,
+      5,
+      6,
+      9,
+      11,
     ],
   }),
   methods: {
@@ -51,8 +60,7 @@ export default {
 
 <style scoped lang="scss">
 .Speakers {
-  padding:  100px 0;
-  padding-bottom: 300px;
+  padding:  100px 0 50px 0;
   position: relative;
 }
 
@@ -78,6 +86,7 @@ export default {
   max-width: 250px;
   width: 100%;
   text-align: center;
+  margin-bottom: 25px;
 }
 
 .Img {
@@ -96,6 +105,14 @@ export default {
   .Img {
     filter: grayscale(0);
   }
+}
+
+.Name {
+  margin-bottom: 0;
+}
+
+.Position {
+  color: #999;
 }
 
 .CallToActionContainer {
