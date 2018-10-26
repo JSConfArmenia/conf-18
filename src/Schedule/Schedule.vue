@@ -7,7 +7,7 @@
       <div class="TimeTable">
         <div class="TimeTableSection">
           <TimeScale
-            :start="'10:00'" />
+            :start="'9:30'" />
           <div class="TimeTableContent">
             <div class="TimeTableContentHeader">
               <div class="row">
@@ -27,7 +27,7 @@
 
         <div class="TimeTableSection">
           <TimeScale
-            :start="'10:30'" />
+            :start="'10:00'" />
           <!-- Scrollable content -->
           <div class="TimeTableContent -scrollable">
             <div class="TimeTableContentHeader">
