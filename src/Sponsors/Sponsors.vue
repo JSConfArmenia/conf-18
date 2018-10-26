@@ -33,7 +33,7 @@
             </a>
           </div>
           <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-            <a class="Sponsor Sponsor-Devlix -gold" href="" target="_blank">
+            <a class="Sponsor Sponsor-Devlix -gold" href="https://www.devlix.io/" target="_blank">
               <div class="Image"></div>
               <h4 class="Name">Devlix</h4>
             </a>
