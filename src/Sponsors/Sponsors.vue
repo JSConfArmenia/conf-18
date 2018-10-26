@@ -228,7 +228,7 @@ export default {
 
   .Name {
     text-align: center;
-    color: #666;
+    color: rgb(170, 170, 170);
     text-decoration: none;
   }
 
