@@ -45,20 +45,17 @@ export default {
       'Aghasi_Lorsabyan',
       'Lilit_Tadevosyan',
       'Hayk_Barseghyan',
+      'Varuzhan_Harutyunyan',
+      'Ruben_Sargsyan',
       'Hrach_Mkrtchyan',
       'Nairi_Harutyunyan',
       'Razmik_Bourtoutian',
       'Ruben_Harutyunyan',
-
       'Khachatur_Virabyan',
       'Hayk_Galstyan',
-
       'Arnold_Dadayan',
       'Vova_Hayrapetyan',
-
-      'Varuzhan_Harutyunyan',
       'Robert_Hanesoghlyan',
-      'Ruben_Sargsyan',
       'Slavik_Manukyan',
       'Albert_Hovhannisyan',
     ],
