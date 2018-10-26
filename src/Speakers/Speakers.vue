@@ -2,7 +2,7 @@
   <section class="Speakers" id="Speakers">
     <div class="Container">
       <h2 class="Title">Who are<br><span class="Accent">The Ninjas?</span></h2>
-      <div class="row no-gutters">
+      <div class="row no-gutters justify-content-center">
         <div
           class="col-md-4 SpeakerCol"
           v-for="speakerId in speakersList"
@@ -36,18 +36,31 @@ export default {
   data: () => ({
     speakers,
     speakersList: [
-      0,
-      2,
-      1,
-      8,
-      10,
-      7,
-      3,
-      4,
-      5,
-      6,
-      9,
-      11,
+      'Illya_Klymov',
+      'Natalia_Tepluhina',
+      'Juho_Vepsäläinen',
+      'Tejas_Kumar',
+      'Gor_Rustamyan',
+      'Shahen_Hovhannisyan',
+      'Aghasi_Lorsabyan',
+      'Lilit_Tadevosyan',
+      'Hayk_Barseghyan',
+      'Hrach_Mkrtchyan',
+      'Nairi_Harutyunyan',
+      'Razmik_Bourtoutian',
+      'Ruben_Harutyunyan',
+
+      'Khachatur_Virabyan',
+      'Hayk_Galstyan',
+
+      'Arnold_Dadayan',
+      'Vova_Hayrapetyan',
+
+      'Varuzhan_Harutyunyan',
+      'Robert_Hanesoghlyan',
+      'Ruben_Sargsyan',
+      'Slavik_Manukyan',
+      'Albert_Hovhannisyan',
     ],
   }),
   methods: {
