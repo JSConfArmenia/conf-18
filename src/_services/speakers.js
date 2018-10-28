@@ -19,8 +19,8 @@ export default {
     name: 'Hrach Mkrtchyan',
     position: 'React.js Developer at Renderforest',
   },
-  Nairi_Harutyunyan: {
-    img: '/speakers/Nairi_Harutyunyan.jpg',
+  Nairi_Haroutiounian: {
+    img: '/speakers/Nairi_Haroutiounian.jpg',
     name: 'Nairi Harutyunyan',
     position: 'Back-end Engineer at Screenful',
   },
@@ -108,5 +108,20 @@ export default {
     img: '/speakers/Albert_Hovhannisyan.jpg',
     name: 'Albert Hovhannisyan',
     position: '',
+  },
+  Rouben_Meschian: {
+    img: '/speakers/Rouben_Meschian.jpg',
+    name: 'Rouben Meschian',
+    position: 'Founding Software Engineer at Cambridge Semantics',
+  },
+  Edgar_Marukyan: {
+    img: '/speakers/Edgar_Marukyan.jpg',
+    name: 'Edgar Marukyan',
+    position: 'CTO at Renderforest',
+  },
+  Narek_Ghevondian: {
+    img: '/speakers/Narek_Ghevondian.jpg',
+    name: 'Narek Ghevandian',
+    position: 'Software Engineer at Vineti AM',
   },
 };
