@@ -120,7 +120,7 @@ export default [
     },
     {
       name: 'TDD with Jest',
-      speakerId: 'Narek_Ghevandiani',
+      speakerId: 'Narek_Ghevondian',
       duration: 30,
     },
     {

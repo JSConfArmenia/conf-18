@@ -57,7 +57,7 @@ export default {
       'Hayk_Galstyan',
       'Robert_Hanesoghlyan',
       'Vova_Hayrapetyan',
-      'Narek_Ghevandiani',
+      'Narek_Ghevondian',
       'Arnold_Dadayan',
       'Ruben_Harutyunyan',
       'Albert_Hovhannisyan',

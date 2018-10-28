@@ -110,18 +110,18 @@ export default {
     position: '',
   },
   Rouben_Meschian: {
-    img: '',
+    img: '/speakers/Rouben_Meschian.jpg',
     name: 'Rouben Meschian',
     position: 'Founding Software Engineer at Cambridge Semantics',
   },
   Edgar_Marukyan: {
-    img: '',
+    img: '/speakers/Edgar_Marukyan.jpg',
     name: 'Edgar Marukyan',
     position: 'CTO at Renderforest',
   },
-  Narek_Ghevandiani: {
-    img: '',
-    name: 'Narek Ghevandiani',
-    position: '',
+  Narek_Ghevondian: {
+    img: '/speakers/Narek_Ghevondian.jpg',
+    name: 'Narek Ghevandian',
+    position: 'Software Engineer at Vineti AM',
   },
 };
