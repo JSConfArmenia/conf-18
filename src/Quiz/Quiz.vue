@@ -5,7 +5,7 @@
         QUIZ
       </div>
       <div class="Description">
-        PARTICIPATE IN QUIZZES, WIN BADGES, BECOME A TRUE JAVASCRIPT NI
+        PARTICIPATE IN QUIZZES, WIN BADGES, BECOME A TRUE JAVASCRIPT NINJA
       </div>
 
       <div class="row justify-content-center Badges">
