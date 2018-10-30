@@ -8,7 +8,7 @@
     <Sponsors />
     <Location />
     <Faq />
-    <!-- <Quiz /> -->
+    <Quiz />
     <AppFooter />
   </div>
 </template>
