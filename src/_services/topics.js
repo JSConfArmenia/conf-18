@@ -47,8 +47,8 @@ export default [
       duration: 45,
     },
     {
-      name: 'From 0 to $1 Million with JS',
-      speakerId: 'Edgar_Marukyan',
+      name: 'The State of State Management in React',
+      speakerId: 'Vardges_Vardanyan',
       duration: 30,
     },
     {

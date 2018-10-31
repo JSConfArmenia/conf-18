@@ -42,7 +42,7 @@ export default {
       'Tejas_Kumar',
       'Rouben_Meschian',
       'Gor_Rustamyan',
-      'Edgar_Marukyan',
+      'Vardges_Vardanyan',
       'Lilit_Tadevosyan',
       'Aghasi_Lorsabyan',
       'Shahen_Hovhannisyan',

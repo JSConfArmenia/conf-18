@@ -114,10 +114,10 @@ export default {
     name: 'Rouben Meschian',
     position: 'Founding Software Engineer at Cambridge Semantics',
   },
-  Edgar_Marukyan: {
-    img: '/speakers/Edgar_Marukyan.jpg',
-    name: 'Edgar Marukyan',
-    position: 'CTO at Renderforest',
+  Vardges_Vardanyan: {
+    img: '/speakers/Vardges_Vardanyan.jpg',
+    name: 'Vardges Vardanyan',
+    position: 'JavaScript Ninja at SFL',
   },
   Narek_Ghevondian: {
     img: '/speakers/Narek_Ghevondian.jpg',
