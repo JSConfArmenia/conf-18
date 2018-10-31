@@ -30,6 +30,7 @@ export default {
   background-repeat: no-repeat;
   background-image: url('./Logo.svg');
   background-size: contain;
+  transition: all .3s ease;
 
   &.compact, &.open {
     height: 26px;

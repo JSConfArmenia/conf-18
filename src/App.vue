@@ -75,7 +75,7 @@ export default {
   color: #666;
   position: relative;
   box-shadow: 0px 1.68em 1.875em 0.5em rgba(162, 162, 162, 0.3);
-  transition: all .3s ease;
+  transition: all 3s ease;
   top: 0;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;

@@ -96,7 +96,7 @@ export default {
   // background: #fff;
   z-index: 100;
   background-color: transparent;
-  // transition: all .3s ease;
+  transition: all .3s ease;
 
   &.-sticked {
     position: fixed;
