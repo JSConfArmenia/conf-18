@@ -100,7 +100,7 @@ export default [
       duration: 15,
     },
     {
-      name: 'Bettwen performance with bundle optimization',
+      name: 'Between performance with bundle optimization',
       speakerId: 'Arnold_Dadayan',
       duration: 30,
     },
