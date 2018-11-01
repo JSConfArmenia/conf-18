@@ -27,7 +27,7 @@
       <div class="Body" v-if="speaker.name">
         <div class="row">
           <div class="col-4">
-            <!-- <span
+            <span
               class="Badge LangBadge"
               :class="`-${topic.lang}`"
               v-tooltip.bottom.start="{
@@ -42,7 +42,7 @@
               v-tooltip.bottom.start="{
                 content: getTopicLevelTooltipContent(),
                 delay: 50,
-              }"></span> -->
+              }"></span>
           </div>
           <div class="col-8">
             <div class="Speaker" >
@@ -89,7 +89,7 @@ export default {
 
       const levels = this.topic.levels.join('-')
         .replace('0', 'beginner')
-        .replace('1', 'intermadiate')
+        .replace('1', 'intermediate')
         .replace('2', 'advanced');
 
       return `-level-${levels}`;
@@ -226,21 +226,21 @@ export default {
     border-color: #9fc718;
   }
 
-  .Topic.-level-beginner-intermadiate,
-  .LevelBadge.-level-beginner-intermadiate {
+  .Topic.-level-beginner-intermediate,
+  .LevelBadge.-level-beginner-intermediate {
     border-top-color: #9fc718;
     border-left-color: #9fc718;
     border-right-color: #f38e1d;
     border-bottom-color: #f38e1d;
   }
 
-  .Topic.-level-intermadiate,
+  .Topic.-level-intermediate,
   .LevelBadge.-level-intermediate {
     border-color: #f38e1d;
   }
 
-  .Topic.-level-intermadiate-advanced,
-  .LevelBadge.-level-intermadiate-advanced {
+  .Topic.-level-intermediate-advanced,
+  .LevelBadge.-level-intermediate-advanced {
     border-color: #f38e1d;
 
     border-top-color: #f38e1d;
