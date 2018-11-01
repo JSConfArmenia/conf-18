@@ -6,6 +6,7 @@
     <Schedule />
     <Speakers />
     <Sponsors />
+    <Team />
     <Location />
     <Faq />
     <Quiz />
@@ -20,6 +21,7 @@ import About from './About/About.vue';
 import Schedule from './Schedule/Schedule.vue';
 import Speakers from './Speakers/Speakers.vue';
 import Sponsors from './Sponsors/Sponsors.vue';
+import Team from './Team/Team.vue';
 import Location from './Location/Location.vue';
 import Faq from './Faq/Faq.vue';
 import Quiz from './Quiz/Quiz.vue';
@@ -34,6 +36,7 @@ export default {
     Schedule,
     Speakers,
     Sponsors,
+    Team,
     Location,
     Faq,
     Quiz,

@@ -7,7 +7,9 @@
     }">
     <div class="Container HeaderContainer">
       <div class="LogoContainer">
-        <a href="#Intro">
+        <a
+          href="#Intro"
+          v-smooth-scroll="navConfig" v-on:click="close">
           <Logo
             :variation="isSticked ? 'compact' : isOpen ? 'open' : 'full'" />
         </a>
@@ -25,7 +27,7 @@
         <a class="Item" href="#Schedule" v-smooth-scroll="navConfig" v-on:click="close">Schedule</a>
         <a class="Item" href="#Speakers" v-smooth-scroll="navConfig" v-on:click="close">Speakers</a>
         <a class="Item" href="#Sponsors" v-smooth-scroll="navConfig" v-on:click="close">Sponsors</a>
-        <!-- <a class="Item" href="#Team">Team</a> -->
+        <a class="Item" href="#Team" v-smooth-scroll="navConfig" v-on:click="close">Team</a>
         <a class="Item" href="#Location" v-smooth-scroll="navConfig" v-on:click="close">Location</a>
         <a class="Item" href="#Faq" v-smooth-scroll="navConfig" v-on:click="close">Faq</a>
         <a class="Item" href="#Quiz" v-smooth-scroll="navConfig" v-on:click="close">Quiz</a>
