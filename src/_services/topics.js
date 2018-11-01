@@ -148,8 +148,8 @@ export default [
       name: 'TDD with Jest',
       speakerId: 'Narek_Ghevondian',
       duration: 30,
-      levels: [1],
-      lang: 'am',
+      levels: [2],
+      lang: 'en',
     },
     {
       name: 'Break',
