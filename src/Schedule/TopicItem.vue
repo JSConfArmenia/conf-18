@@ -145,7 +145,7 @@ export default {
    }
 
   .Topic.-small:not(.-no-speaker) .Name {
-    font-size: .7em;
+    font-size: .8em;
     padding-bottom: 5px;
     margin-bottom: 7px;
   }
